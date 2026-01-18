@@ -25,19 +25,39 @@ In an alternate version of the SuperTux story where Nolok moved from Mountain Pe
 - [ ] The Old Ruins (Basically, there will be an optional extra level that explains the history of the grassland in a ruins level)
 
 ### Art
-#### Normal Grassland
+#### Normal Grassland Tiles
+- [ ] Grassland (Needs to be remade with slopes and stuff)
+- [x] Rock decorations to go over the Grassland Tiles
+- [ ] Tall Grass
+- [ ] Dirt tiles (Grassland without grass)
+- [ ] Unisolid Grassland Tiles
+
+### Burning Grassland Tiles
+- [ ] Burning Grassland (recolor of normal grassland tiles but the grass goes down a bit more if that makes sense)
+- [ ] Fire decorations to go over the Burning Grassland tiles
+- [ ] Red Castle tiles (recolor of forest tower tiles)
+- [ ] Dirt tiles 2 (Burning Grassland without grass)
+- [ ] Unisolid Burning Grassland tiles
+
+#### Normal Grassland Enemies
 - [ ] Grassball (A snowball but instead of snow it's grass)
 - [ ] Tumbleweed Remake (Bouncing Snowball-like enemy)
 - [ ] Little Tree (Iceblock-like enemy, should be the same design as old SuperTux Little Tree but remade to be 0.7 style)
 - [ ] Walking Tree (Spiky-like enemy, see walking tree in supertux media images/creatures/tree/)
 - [ ] Leafman (Smaller Spiky-like enemy)
 
-#### Burning Grassland
+#### Burning Grassland Enemies
 - [ ] Burnedball (A grassball with small flames on it)
 - [ ] Burning Tumbleweed (Bouncing Snowball-like enemy)
 - [ ] Burned Little Tree (I couldn't come up with a better name) (Little Tree but with fire replacing the eyes)
 - [ ] Burned Tree (Walking Tree but with fire on it)
 - [x] Livefire (Already done as this is a SuperTux enemy that already is in-game)
+
+#### Grassland Decals
+- [ ] Grass hill with hole in it exit
+
+#### Burning Grassland Decals
+- [ ] Grass hill with hole in it exit but it's on fire (could just be a red version of the grass hill with separate fire decals over it)
 
 ## Story
 ### Pre-Tux
