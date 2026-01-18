@@ -1,5 +1,5 @@
 # SuperTux: Groovy Grassland
-In an alternate version of the SuperTux story where Nolok moved from Mountain Peak, Tux has to go to a grassland world to save Penny. But is Nolok there? Who knows.
+In an alternate version of the SuperTux story where Nolok moved from Mountain Peak, Tux has to go to a grassland world to save Penny. But is Nolok and Penny there? Who knows.
 
 ## Things Needed
 ### Music
