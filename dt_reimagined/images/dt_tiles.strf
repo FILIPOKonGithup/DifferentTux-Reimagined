@@ -1,0 +1,227 @@
+;; -*- scheme -*-
+;; This file contains the mapping from tile-ids to images files as well
+;; as the tile properties (unisolid, solid, ice, water, etc.). Since
+;; it is important that the tile-ids don't change once created and
+;; used in a level some care has to be taken when editing this file,
+;; otherwise the levels would be rendered unusable.
+;;
+;; Some notes on editing this file:
+;;  - tile-ids must be unique
+;;  - the tile definition with the largest id should always be at the
+;;    bottom of the file
+;;  - when creating a new tile definition take the greatest current id
+;;    and increment it by one
+;;  - the meaning of the values in (attributes ...) can be seen in
+;;    src/tile.cpp, unisolid is 3 not 2
+
+;; sorry eauix i copied your snow covering tileset file
+;; anyways next tile id: 90001
+
+(supertux-tiles
+    (tilegroup
+      (name (_ "DT Snow"))
+      (tiles
+        90001 90002 90003 90004
+        90005 90006 90007 90008
+        90009 90010 90011 90012
+        90013 90014 90015 90016
+        90017 90018 90019 90020
+        90021 90022 90023 90024
+        90025 90026 90027 90028
+        90029 90030 90031 90032
+        90070 0     0     0
+        90080 90090 90091 90092
+        90093 90094 90095 90096
+        90097 90098 90099 90100
+        90101 90102 90103 90104
+        0     0     0     0
+        90105 90106 90107 90108
+        90109 90110 90112 90113
+        90114 90115 90116 0
+      )
+    )
+
+    (tilegroup
+      (name (_ "DT Forest"))
+      (tiles
+        90033 90034 90035 90036
+        90037 90038 90039 90040
+        90041 90042 90043 90044
+        90045 90046 90047 90048
+        90049 90050 90051 90052
+        90053 90054 90055 90056
+        90057 90058 90059 90060
+        90061 90062 90063 90064
+        90065 90066 90067 90068
+        0     0     90069 0
+      )
+    )
+
+    (tilegroup
+      (name (_ "DT Blocks"))
+      (tiles
+        90071 90072 90075 90076
+        90073 90074 90077 90078
+        90079 90080 90081 0
+        90082 90083 90084 90085
+        90086 0     0     0
+        90087 0     0     0
+        90088 0     0     0
+      )
+    )
+
+    (tiles
+      (width 4)
+      (height 9)
+      (ids
+        90001 90002 90003 90004
+        90005 90006 90007 90008
+        90009 90010 90011 90012
+        90013 90014 90015 90016
+        90017 90018 90019 90020
+        90021 90022 90023 90024
+        90025 90026 90027 90028
+        90029 90030 90031 90032
+        90070 0     0     0
+      )
+      (attributes
+        0 0 0 0
+        1 1 1 1
+        1 1 1 1
+        1 1 1 1
+        1 1 1 1
+        1 1 1 1
+        1 1 1 1
+        1 1 1 1
+        1 0 0 0
+      )
+      (images "tiles/snow/main.png")
+    )
+
+    (tiles
+      (width 4)
+      (height 10)
+      (ids
+        90033 90034 90035 90036
+        90037 90038 90039 90040
+        90041 90042 90043 90044
+        90045 90046 90047 90048
+        90049 90050 90051 90052
+        90053 90054 90055 90056
+        90057 90058 90059 90060
+        90061 90062 90063 90064
+        90065 90066 90067 90068
+        0     0     90069 0
+      )
+      (attributes
+        1 1 1 1
+        0 0 0 0
+        1 1 1 1
+        1 1 1 1
+        1 1 1 1
+        1 1 1 1
+        1 1 1 1
+        1 1 1 1
+        1 1 1 1
+        0 0 1 0
+      )
+      (images "tiles/forest/main.png")
+    )
+
+    (tiles
+      (width 2)
+      (height 2)
+      (ids
+        90071 90072
+        90073 90074
+      )
+      (attributes
+        1 1
+        1 1
+      )
+      (images "tiles/blocks/bigblock.png")
+    )
+
+    (tiles
+      (width 2)
+      (height 2)
+      (ids
+        90075 90076
+        90077 90078
+      )
+      (attributes
+        1 1
+        1 1
+      )
+      (images "tiles/blocks/bigblock_forest.png")
+    )
+
+    (tiles
+      (width 1)
+      (height 1)
+      (ids 90079)
+      (attributes 1)
+      (images "tiles/blocks/block.png")
+    )
+
+    (tiles
+      (width 1)
+      (height 1)
+      (ids 90080)
+      (attributes 1)
+      (images "tiles/blocks/block_forest.png")
+    )
+
+    (tiles
+      (width 1)
+      (height 1)
+      (ids 90081)
+      (attributes 1)
+      (images "tiles/blocks/starblock.png")
+    )
+
+    (tiles
+      (width 4)
+      (height 4)
+      (ids
+        90082 90083 90084 90085
+        90086 0     0     0
+        90087 0     0     0
+        90088 0     0     0
+      )
+      (attributes
+        1 1 1 1
+        1 0 0 0
+        1 0 0 0
+        1 0 0 0
+      )
+      (images "tiles/blocks/wood.png")
+    )
+
+    (tiles
+      (width 4)
+      (height 4)
+      (ids
+        90089 90090 90091 90092
+        90093 90094 90095 90096
+        90097 90098 90099 90100
+        90101 90102 90103 90104
+      )
+      (images "tiles/snow/snow.png")
+    )
+
+    (tiles
+      (width 4)
+      (height 3)
+      (ids
+        90105 90106 90107 90108
+        90109 90110 90112 90113
+        90114 90115 90116 0
+      )
+      (images "tiles/snow/snowbackground1.png")
+    )
+
+    (import-tileset
+        (file "/images/tiles.strf")
+    )
+)
